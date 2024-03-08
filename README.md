@@ -16,6 +16,12 @@ Build it
 npm run build
 ```
 
-Why does the build fail with
+Why does the build fail with Error: useSessionStorage is a client-only hook
 
-Error: useSessionStorage is a client-only hook
+Run dev
+
+```bash
+npm run dev
+```
+
+We get an internal server error on each request although it loads and sets data in the session
